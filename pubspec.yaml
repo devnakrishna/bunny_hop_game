@@ -1,0 +1,36 @@
+name: bunny_hop
+description: A cute bunny game
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bunny.png
+    - assets/cactus.png
+    - assets/mushroom.png
+    - assets/pot.png
+    - assets/wood.png
+    - assets/cloud.png
+    - assets/shield.png
+    - assets/star.png
+    - assets/sounds/jump.wav
