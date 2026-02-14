@@ -1,4 +1,4 @@
-# flip_and_dodge
+# bunny_hop_game
 
 A new Flutter project.
 
